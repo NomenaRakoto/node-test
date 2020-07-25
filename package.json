@@ -1,0 +1,41 @@
+{
+	"name": "nodebot",
+	"version": "0.1.0",
+	"dependencies": {
+		"apiai": "4.0.1",
+		"body-parser": "1.17.1",
+		"dom-parser": "0.1.5",
+		"ejs": "2.5.6",
+		"encodeurl": "1.0.1",
+		"express": "^4.15.2",
+		"fs": "0.0.1-security",
+		"gifsicle": "3.0.4",
+		"google": "2.1.0",
+		"html-convert": "2.1.7",
+		"html-entities": "1.2.0",
+		"https": "1.0.0",
+		"m3u8stream": "0.1.2",
+		"miniget": "1.0.0",
+		"node-native-zip": "1.1.0",
+		"node-wit": "4.2.0",
+		"request": "2.81.0",
+		"sax": "1.2.2",
+		"scrape-youtube": "^0.2.3",
+		"split-file": "2.1.0",
+		"stackexchange": "0.4.0",
+		"utf8": "2.1.2",
+		"videoshow": "0.1.11",
+		"winrarjs": "0.0.16",
+		"youtube-api": "~2.0.10",
+		"youtube-dl": "1.11.1",
+		"youtube-mp3-downloader": "0.5.1",
+		"cheerio": "0.22.0"
+	},
+	"engines": {
+		"node": "~12.5.0"
+	},
+	"main": "index.js",
+	"scripts": {
+	  "start": "node index.js"
+	}
+}
