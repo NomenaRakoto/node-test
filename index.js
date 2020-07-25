@@ -18,7 +18,7 @@ process.on('uncaughtException', function (err) {
 //=====================A copier===============
 var video = require('./modules/video');
 var g = require('./modules/google_search_scraper');
-app.set('port', process.env.PORT || 80);
+app.set('port', 3000);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
